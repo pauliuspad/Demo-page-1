@@ -4,7 +4,7 @@
   /* Large devices (laptops/desktops, 992px and up) */
   /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-  @media only screen and (max-width: 1009) and (min-width: 730px) {
+  @media only screen and (max-width: 1030px) {
    
     .development-section{
     margin-bottom: 30px;
@@ -13,11 +13,13 @@
     .wireframe-wrapper {
          width: 100%;
     }
+
+    .list-development-wrepper{
+        margin: 20px;
+    }
 }
 
-
-
-@media only screen and (max-width: 729px) {
+@media only screen and (max-width: 730px) {
 
     .welcome-wrapper{
     width: 100%;
@@ -29,22 +31,14 @@
         width: 100%;
     }
 
-    .list-development-wrepper{
-        margin: 20px;
-    }
+   
     div.footer div {
      width: 100%; 
   }
   .menu{
     margin-top: 30px;
   }
-  .development-section{
-    margin-bottom: 30px;
-    width: 100%;
-    }
-    .wireframe-wrapper {
-         width: 100%;
-    }
+
     }
   
 
