@@ -2,14 +2,119 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
-    <meta name="description" content="Roughly 155 characters">
     <link rel="stylesheet" type="text/css" href="style/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="scripts/scripts.js"></script>
+
+    <title>Frontend Task</title>
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <meta name="description" content="adeo web Frontend task">
+    <meta name="author" content="Paulius Padriezas">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   
   <body>
-    <!-- Content -->
+
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+
+    <header>
+            <div class="header">
+                <div class="upper">MENU | SOME TEXT | ANOTHER ITEM | one more | and last one</div>
+                <div class="header-menu">
+                    <a href="#default" class='logo upper'><B>DEMO</B>SITE</a>
+                    <div class="menu upper">
+                    <a class="button3 upper" href="#home">HOME</a>
+                    <a class="button3 upper" href="#service">SERVICE</a>
+                    <a class="button3 upper" href="#works">WORKS</a>
+                    <a class="button3 upper" href="#auboutme">ABOUT ME</a>
+                    <a class="button3 upper" href="#contact">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+    </header>
+    
+
+    <div class= "content"> 
+            <div class="section top-section ">
+                <section class="blue-container welcome-wrapper">
+                    <h1 class="upper white-text">Welcome</h1>
+                    <hr class="short-line white-line">
+                    <p class="white-text">Some text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla massa ipsum, dictum scelerisque nunc lobortis vel. Praesent cursus iaculis lectus et aliquet. Etiam eu rhoncus sem.</p>
+                    <button class="upper button2">learn more</button>
+                </section>
+                <section class="design-wrapper">
+                    <img src="image/bender.jpg" alt="Bender meeting Jake and the dog">
+                    <div class="below-photo">
+                        <h4 class="upper"> UI/UX design</h4>
+                        <p> Some text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla massa ipsum, dictum scelerisque nunc lobortis vel. Praesent cursus iaculis lectus et aliquet. Etiam eu rhoncus sem.</p> 
+                    </div>
+                    </section>
+            </div>
+
+            <div class="section blue-container web-wireframe-wrapper">
+                <section class="development-section">
+                    <h4 class="upper white-text">web development</h4>
+                    <p class="white-text">Some text. Phasellus quis dolor eleifend, consectetur ipsum a, condimentum dolor. Aenean ultrices mattis leo vel suscipit. Nunc massa tellus, malesuada id pretium eu, eleifend in massa. Vestibulum est purus, finibus quis efficitur pellentesque, luctus id odio.</p>
+                </section>
+                <div class="wireframe-wrapper ">
+                    <section class="padding-wireframe-list">
+                        <h4 class="upper white-text">Wireframe</h4>
+                        <p class="white-text">Some text. Phasellus quis dolor eleifend, consectetur ipsum a, condimentum dolor.</p>
+                    </section>
+                    <div class="white-line list-development-wrepper padding-wireframe-list">
+                        <div class="list-wrapper">
+                            <h4>Custom List</h4>
+                            <div class="margin-bottom">Some heading</div>
+                            <div id="list"></div>
+                        </div> 
+                        <section class="list-wrapper">
+                            <h4>Web Development</h4>
+                            <div>Text next to list. Donec nisi turpis, ultricies at velit at, interdum imperdiet nisi. Phasellus lacinia nisl eu porttitor varius. Fusce volutpat sed erat eu fermentum. </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <section class="section contact-section">
+                    <h1 class="upper">Contact</h1>
+                    <hr class="short-line">
+                    <div class="contact-wrepper">
+                    <div class="contact-text">Some text below contact. Maecenas facilisis rutrum condimentum. Donec laoreet massa quam, in ultricies neque vulputate non. Nulla facilisi. Quisque dictum maximus diam, quis maximus nisi mollis at. Maecenas libero diam, bibendum iaculis metus non, euismod porttitor orci. Pellentesque ac pulvinar ante, sed laoreet est.<br /><br />
+
+                            Donec nisi turpis, ultricies at velit at, interdum imperdiet nisi. Phasellus lacinia nisl eu porttitor varius. Fusce volutpat sed erat eu fermentum.  <br /><br />
+                            
+                            Ut sed eleifend enim. Integer fermentum suscipit felis nec scelerisque. Donec ultricies maximus laoreet. Nunc blandit venenatis ligula, eget dignissim turpis pulvinar eu.
+                </div>
+                    <form action="#" method="post" target="_self" autocomplete="on" class="contact-form">
+                        <h4 class="upper">Name </h4>
+                        <input type="text" name="name">
+                        <h4 class="upper">Email</h4> 
+                        <input type="email" name="email">
+                        <h4 class="upper">Message</h4>
+                        <input class="message-field" type="text" name="message" autocomplete="off"><br/>
+                        <button class="button1 upper" type="submit" >Send</button>
+                    </form>
+                </div>
+            </section>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div>Some text. Maecenas a est congue, dapibus libero eget, vestibulum neque. Duis eget massa velit. Nam eleifend ullamcorper libero quis pharetra. </div>
+            <div>                           
+                <div class="menu upper">
+                    <a class="button3 upper" href="#home">HOME</a>
+                    <a class="button3 upper" href="#service">SERVICE</a>
+                    <a class="button3 upper" href="#works">WORKS</a>
+                    <a class="button3 upper" href="#auboutme">ABOUT ME</a>
+                    <a class="button3 upper" href="#contact">CONTACT</a>
+                </div> 
+                <a href="#default" class='right-reserved upper'><B>DEMO</B>SITE All right reserved </a>
+            </div>
+        </div>
+    </footer>
+    
   </body>
 </html>
