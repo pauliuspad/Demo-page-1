@@ -95,6 +95,20 @@ img {
     text-align: center;
 }
 
+.menu2{
+    float: right;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100% !important;
+}
+
+.footer-second-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .section {
     margin-bottom: 70px;
     display: flex;
@@ -184,6 +198,7 @@ img {
 
 .development-section {
     margin-right: 40px;
+    margin-left: 20px;
     width: 35%;
 }
 
@@ -240,23 +255,3 @@ form.contact-form input{
 .margin-bottom {
     margin-bottom: 30px;
 }
-
-
-
-@media only screen and (max-width: 600px) {
-
-  }
-
-  @media only screen and (min-width: 768px) {
-   
-  }
-
-  /* Extra small devices (phones, 600px and down) */
-  /* Small devices (portrait tablets and large phones, 600px and up) */ 
-  /* Medium devices (landscape tablets, 768px and up) */
-  /* Large devices (laptops/desktops, 992px and up) */
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (max-width: 600px) {
-    .example {background: red;}
-  }
-
