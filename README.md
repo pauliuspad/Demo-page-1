@@ -11,4 +11,5 @@ https://demo-site-s-1.000webhostapp.com/
 
 ## Given image
 
+#### This is the image that was given to recreate using CSS, HTML and JavaScrip.
 ![Given image for the task](image/given-img.PNG)
