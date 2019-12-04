@@ -2,6 +2,7 @@
 
 ## Hosted Demo page
 
+This is the link to check live Demo page:
 https://demo-site-s-1.000webhostapp.com/
 
 ## Features
