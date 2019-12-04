@@ -11,4 +11,4 @@ https://demo-site-s-1.000webhostapp.com/
 
 ## Given image
 
-![Given image for the task](https://github.com/pauliuspad/Demo-page-1/tree/master/image/given-img.PNG)
+![Given image for the task](image/given-img.PNG)
